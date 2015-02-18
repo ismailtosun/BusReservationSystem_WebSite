@@ -1,0 +1,3 @@
+[23-Dec-2014 12:03:32 UTC] PHP Warning:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/ealtaca/public_html/lib/ez_sql.php on line 845
+[23-Dec-2014 12:03:33 UTC] PHP Warning:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/ealtaca/public_html/lib/ez_sql.php on line 845
+[23-Dec-2014 12:03:36 UTC] PHP Warning:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/ealtaca/public_html/lib/ez_sql.php on line 845

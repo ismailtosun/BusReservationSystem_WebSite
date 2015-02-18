@@ -1,0 +1,67 @@
+/* Comments -------------------------------------------------------------------------------------------*/
+
+ol.commentlist 									{ margin: 0; padding: 0; list-style:none;  }
+ol.commentlist li 								{ margin: 0px; padding:5px 0px; }
+
+.comment_wrap									{ position:relative;  width:100%; margin-bottom:10px; padding:10px 0; border-bottom: 1px solid #eee; }
+.comment-author									{ font-size: 10px; width:100px; float:left; border-right: 1px solid #eee; padding-right:10px;  	}
+.single_comment									{ margin-left:110px; position:relative; padding-left:10px; }
+.alt 											{ margin: 0; padding:0px; }
+
+.comment-author a 								{ text-decoration:none; }
+.avatar 										{ margin-bottom:5px; display:block;}
+
+.commentlist ul.children		 				{ margin:5px 0 0px 0; padding:0px; 	}
+.commentlist li ul.children li 					{ margin: 0px; padding:0 0 0 50px; background:none; 	}
+	
+.commentlist .children .comment-author			{ font-size: 10px; width:100px; float:left; border-right: 1px solid #eee; padding-right:10px;  }
+.commentlist .children .comment-author img.avatar	{ text-align:left; margin:0 0 5px 0; }
+
+.commentlist code 								{ padding:3px;background:#e6e6e6; }
+.commentlist .moderation 						{ margin-top: 10px; color: #dd0000;   }
+.commentlist .children 							{ margin-top:5px;}
+
+.comment-author-admin	.comment_wrap			{ border:1px solid #ccc;}
+
+
+.reply a:link,
+.reply a:visited  								{ text-decoration:none !important;	text-transform: uppercase;  font-size:10px;	}
+.reply a:hover 									{ }
+
+
+.cancel-comment-reply a 						{ background:#ddd; color:#212121; text-align:center; text-decoration:none !important; text-transform: uppercase; padding:4px 10px; font-size:10px; width:auto; float:right; margin-right:25px }
+.cancel-comment-reply a:hover					{ background:#ddd; color:#000000; }
+
+	
+#commentform input, #commentform textarea			{ padding:4px; }
+#commentform input[type=image]					{ width:auto !important; background:none; }
+.btn	 										{ border: 0 !important; }
+cite.fn 											{ font-weight:bold; font-size:11px; font-style:normal; text-align:left;	}
+
+.comment-meta 									{ margin-top:2px; font-size: 10px; line-height: 12px;  }
+
+
+/* Comments Form -------------------------------------------------------------------------------------------*/
+
+#respond:after									{ content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+	
+#respond 										{ position:relative; clear:both; }
+#respond p										{ margin-bottom: 0px;  }		
+#respond label 									{ display: inline-block; margin-right: 0px;  }		
+#respond textarea 								{ vertical-align: top; font: 1.1em Tahoma; line-height: 1.7em; padding: 9px; width:98%; height: 100px; }
+#respond .indent 								{ padding-top: 15px; }
+			
+
+#respond .submitbutton 							{ width: 85px; border:none; height:30px; }
+
+#respond input, 
+#respond select, 
+#respond textarea 								{ -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px; border-style:solid; border-width:1px; margin-bottom: 9px !important;  border: 1px solid; 
+padding: 4px;  background-color: #f5f5f5; border-color: #ccc #ddd #ddd #ccc;} 
+
+#respond input:focus, 
+#respond select:focus, 
+#respond textarea:focus 							{ background:#fff;  }
+
+#respond span 									{ font:normal 11px Tahoma, Arial, Sans-serif;}
+
