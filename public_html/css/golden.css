@@ -1,0 +1,57 @@
+body#boxed,
+.fancyheading span, 
+table.fancy_table th,
+#header, 
+.button,
+.copyright						{ background-color:#634111;}
+
+
+#footer							{ background-color:#634111; }
+
+	
+a								{ text-decoration:none; color:#634111; outline:none;	}
+
+
+a:hover,
+strong, 
+.breadcrumbs a:hover, 
+.post h2  a:hover 				{ color:#b76c00; }
+
+.nav li a						{ color:#000; }
+
+.nav li a	 					{ color:#000; background:url(../images/trans_sep.png) top right repeat-y; }
+.nav ul li a 					{ color:#888; border:1px solid #ddd; border-bottom:none;}
+.nav ul li a:hover				{ color:#999; background: url(../images/menu_bg_gradient_overlay.png) 0 -1px repeat; }
+.nav ul							{ background: url("../images/arrow_up_dark.png") 10px 22px transparent no-repeat; /*ie6fix*/ }
+.nav .current-menu-item a strong	{ color:#aaa; font-weight: bold;}
+.nav ul	ul						{ background:none; } 
+.nav li ul 						{ border-bottom:1px solid #ddd; }
+
+#footer .sysform input.txt, 
+#footer .sysform textarea, 
+#footer .sysform select			{ color:#ffffff; background:transparent url(../images/opac-10.png); width:94%;}
+#footer .sysform input.txt		{ width:55%;} 
+
+.nivo-caption					{ background:#fff url(../images/opac-10.png);}
+.sysform input.txt, 
+.sysform textarea, 
+.sysform select					{ background:#fff;}
+
+#footer,
+#footer h3,
+#footer p						{ color:#fff; }
+
+#footer a,
+#footer #wp-calendar, 
+#footer #wp-calendar caption, 
+#footer #wp-calendar th, 
+#footer #wp-calendar td 		{ color:#fff;}
+
+.subheader a,
+#footer a:hover					{ color:#b76c00; }
+
+.copyright						{ background-color:#000; }
+#footer .syswidget .widget_postslist li 		{ border:none;  }
+#footer .syswidget .widget_postslist ul li a 	{ background:none;  }
+
+#footer .syswidget ul li a			{  	}	

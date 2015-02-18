@@ -1,0 +1,128 @@
+/*
+ * jQuery Nivo Slider v1.6
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2010, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+
+
+#slider {
+float:left;
+position:relative;
+top:0px;
+margin:0;
+background:#fff url(../ajax-loader.gif) no-repeat 50% 50%;
+width:600px !important;
+height:300px !important;
+}
+
+.slideroverlay 			{ background:url(../images/slider_overlay.png) no-repeat top right; position:absolute; display:block; left:0px; height:300px; width:600px; z-index:109; }
+
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a { 	border:0; z-index:110	}
+
+
+.nivoSlider {
+	}
+	
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	z-index:14;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	display:none;
+}
+
+.nivo-slice {
+	display:block;
+	position:absolute;
+	height:100%;
+}
+
+.nivo-caption {
+	position:absolute;
+	bottom:10px;
+	left:0px;
+	padding:10px;
+	color:#000;
+	width:auto;
+	z-index:11;
+	margin:0 auto;
+}
+.nivo-caption p {
+/*	background:#008fc5; */
+	line-height:normal;
+	font-size:10px;
+	text-transform:uppercase;
+	margin:0;
+		
+	position:relative;		
+	z-index:14;
+}
+
+.nivo-directionNav a {
+	position:absolute;
+	bottom:10px;
+	z-index:24;
+	cursor:pointer;
+	
+}
+.nivo-prevNav {
+	left:410px;
+	text-indent:-99999px;
+	display:block;
+	width:8px;
+	height:11px;
+	background:url(../images/arrows.png) 0 0 no-repeat;
+}
+.nivo-nextNav {
+	right:8px;
+	display:block;
+	text-indent:-99999px;	
+	width:8px;
+	height:11px;
+	background:url(../images/arrows.png) -8px 0 no-repeat;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:1px;
+	top:10px;
+	z-index:120;
+	cursor:pointer;
+
+}
+.nivo-controlNav a {
+	display:block;
+	width:10px;
+	height:12px;
+/*	background:url(../images/slider_nav.png) no-repeat; */
+	text-indent:-9999px;
+	border:0;
+	padding-right:5px;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	background-position:-15px 0;
+	margin-right:0;
+}
